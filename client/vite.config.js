@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     server: {
       port: 10000,
+      host:'0.0.0.0',
       proxy: {
         '/api': {
           target: 'https://schedulify-main.onrender.com',
