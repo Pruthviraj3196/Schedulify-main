@@ -3,7 +3,7 @@
 A full-stack task scheduler application built with Node.js and React.js, enabling users to schedule tasks, send automated reminder emails, clear expired data, and view task logs.
 
 
-## Hosted Link - [Click here](https://schedulify-main-1.onrender.com)
+## Hosted Link - [Click here](https://schedulify-1.onrender.com/)
 
 ## Features
 ### Backend
