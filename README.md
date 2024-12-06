@@ -1,11 +1,33 @@
-# Task Scheduler Project
+# Task Scheduler App
 
-## Project Description
+A full-stack task scheduler application built with Node.js and React.js, enabling users to schedule tasks, send automated reminder emails, clear expired data, and view task logs.
 
-This project is a task scheduler application built with the MERN stack (MongoDB, Express, React, Node.js) and Vite for the frontend. It allows users to create, manage, and schedule tasks with various cron expressions. The tasks can trigger actions such as sending emails, and the application logs these actions along with their execution status.
 
-## Hosted Link - [Click here](https://schedulify-client.onrender.com)
-    
+## Hosted Link - [Click here](https://schedulify-1.onrender.com/)
+
+## Features
+### Backend
+- Task Scheduling: Use node-cron to execute tasks at specified intervals.
+- Email Notifications: Send automated emails using Nodemailer.
+- Logs Management: Store task execution logs in MongoDB for later review.
+- Configuration Management: Use dotenv for secure configuration of sensitive data.
+### Frontend
+- Add New Task: A form to create and schedule a new task.
+- Task List: View a list of all tasks, their scheduling frequency, and status.
+- Task Logs: View execution history of all tasks.
+
+## Tech Stack
+### Frontend
+- React.js
+- Tailwind CSS
+- Axios (for API calls)
+### Backend
+- Node.js
+- Express.js
+- Node-cron
+- Nodemailer
+- MongoDB with Mongoose
+
 ## Setup Instructions -
 
 
