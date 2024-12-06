@@ -18,7 +18,7 @@ app.use(cors());
 
 // Database Connection
 mongoose
-  .connect(process.env.MONGO_URL, {
+  .connect("mongodb+srv://sanketm457:A24BoRgX2tyAHyOz@jobapp.ezdevqu.mongodb.net/newTest", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
